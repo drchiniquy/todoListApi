@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "Don's test stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalgmt/restfulapitutorial.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "tutorial"
+  ],
+  "author": "don juan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/generalgmt/restfulapitutorial/issues"
+  },
+  "homepage": "https://github.com/generalgmt/restfulapitutorial#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  }
+}
